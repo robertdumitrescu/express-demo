@@ -1,0 +1,19 @@
+{
+  "name": "express-demo",
+  "version": "1.0.0",
+  "description": "express controller routes + dependecy injection poc",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./app/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Liviu Taban <tabanliviu@yahoo.com>",
+  "engines": {
+    "node": ">=8"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.4",
+    "winston": "^2.3.1"
+  }
+}
