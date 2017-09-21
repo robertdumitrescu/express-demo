@@ -1,0 +1,12 @@
+{
+  "greeting": "Hello",
+  "logger": {
+    "console": {
+      "level": "debug"
+    },
+    "file": {
+      "filename": "application.log",
+      "level": "error"
+    }
+  }
+}
